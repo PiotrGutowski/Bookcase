@@ -1,0 +1,6 @@
+C:\Users\chino\Documents\Visual Studio 2017\Projects\Bookcase\Bookcase.Core\bin\Debug\Bookcase.Core.dll
+C:\Users\chino\Documents\Visual Studio 2017\Projects\Bookcase\Bookcase.Core\bin\Debug\Bookcase.Core.pdb
+C:\Users\chino\Documents\Visual Studio 2017\Projects\Bookcase\Bookcase.Core\obj\Debug\Bookcase.Core.csprojResolveAssemblyReference.cache
+C:\Users\chino\Documents\Visual Studio 2017\Projects\Bookcase\Bookcase.Core\obj\Debug\Bookcase.Core.csproj.CoreCompileInputs.cache
+C:\Users\chino\Documents\Visual Studio 2017\Projects\Bookcase\Bookcase.Core\obj\Debug\Bookcase.Core.dll
+C:\Users\chino\Documents\Visual Studio 2017\Projects\Bookcase\Bookcase.Core\obj\Debug\Bookcase.Core.pdb

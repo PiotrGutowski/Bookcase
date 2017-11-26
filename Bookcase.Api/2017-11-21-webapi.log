@@ -1,0 +1,92 @@
+2017-11-21 20:49:59.4323|DEBUG|Bookcase.Api.Helpers.NLogger| System.Web.Http.Controllers WebHostHttpControllerTypeResolver GetControllerTypes
+2017-11-21 20:50:01.1657|DEBUG|Bookcase.Api.Helpers.NLogger| System.Web.Http.Controllers WebHostHttpControllerTypeResolver GetControllerTypes
+2017-11-21 20:50:01.6906|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/ System.Web.Http.Request http://localhost:49869/api/author/
+2017-11-21 20:50:01.7122|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/ System.Web.Http.Controllers DefaultHttpControllerSelector SelectController Route='MS_SubRoutes:System.Web.Http.Routing.IHttpRouteData[]'
+2017-11-21 20:50:01.7122|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/ System.Web.Http.Controllers DefaultHttpControllerSelector SelectController Author
+2017-11-21 20:50:01.7122|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/ System.Web.Http.Controllers HttpControllerDescriptor CreateController
+2017-11-21 20:50:01.7122|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/ System.Web.Http.Controllers DefaultHttpControllerActivator Create
+2017-11-21 20:50:02.1915|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/ System.Web.Http.Controllers DefaultHttpControllerActivator Create Bookcase.Api.Controllers.AuthorController
+2017-11-21 20:50:02.1915|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/ System.Web.Http.Controllers HttpControllerDescriptor CreateController Bookcase.Api.Controllers.AuthorController
+2017-11-21 20:50:02.1915|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/ System.Web.Http.Controllers AuthorController ExecuteAsync
+2017-11-21 20:50:02.2010|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/ System.Web.Http.Action ApiControllerActionSelector SelectAction
+2017-11-21 20:50:02.2131|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/ System.Web.Http.Action ApiControllerActionSelector SelectAction Selected action 'Get()'
+2017-11-21 20:50:02.2352|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/ System.Web.Http.ModelBinding HttpActionBinding ExecuteBindingAsync
+2017-11-21 20:50:02.2352|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/ System.Web.Http.ModelBinding HttpActionBinding ExecuteBindingAsync
+2017-11-21 20:50:02.2442|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/ System.Web.Http.Filters AutoInvalidateCacheOutputAttribute OnActionExecutingAsync Action filter for 'Get()'
+2017-11-21 20:50:02.2442|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/ System.Web.Http.Filters AutoInvalidateCacheOutputAttribute OnActionExecutingAsync
+2017-11-21 20:50:02.2442|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/ System.Web.Http.Filters CacheOutputAttribute OnActionExecutingAsync Action filter for 'Get()'
+2017-11-21 20:50:02.2623|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/ System.Net.Http.Formatting DefaultContentNegotiator Negotiate Type='IHttpActionResult', formatters=[JsonMediaTypeFormatterTracer, XmlMediaTypeFormatterTracer, FormUrlEncodedMediaTypeFormatterTracer, FormUrlEncodedMediaTypeFormatterTracer]
+2017-11-21 20:50:02.2783|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/ System.Net.Http.Formatting JsonMediaTypeFormatter GetPerRequestFormatterInstance Obtaining formatter of type 'JsonMediaTypeFormatter' for type='IHttpActionResult', mediaType='application/json; charset=utf-8'
+2017-11-21 20:50:02.2783|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/ System.Net.Http.Formatting JsonMediaTypeFormatter GetPerRequestFormatterInstance Will use same 'JsonMediaTypeFormatter' formatter
+2017-11-21 20:50:02.2783|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/ System.Net.Http.Formatting DefaultContentNegotiator Negotiate Selected formatter='JsonMediaTypeFormatter', content-type='application/json; charset=utf-8'
+2017-11-21 20:50:02.2919|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/ System.Web.Http.Filters CacheOutputAttribute OnActionExecutingAsync
+2017-11-21 20:50:02.2919|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/ System.Web.Http.Action ApiControllerActionInvoker InvokeActionAsync Action='Get()'
+2017-11-21 20:50:02.2919|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/ System.Web.Http.Action ReflectedHttpActionDescriptor ExecuteAsync Invoking action 'Get()'
+2017-11-21 20:50:05.6721|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/ System.Web.Http.Action ReflectedHttpActionDescriptor ExecuteAsync Action returned 'System.Web.Http.Results.JsonResult`1[System.Collections.Generic.IEnumerable`1[Bookcase.Infrastructure.DTO.AuthorDto]]'
+2017-11-21 20:50:05.7997|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/ System.Web.Http.Action ApiControllerActionInvoker InvokeActionAsync
+2017-11-21 20:50:05.7997|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/ System.Web.Http.Filters CacheOutputAttribute OnActionExecutedAsync Action filter for 'Get()'
+2017-11-21 20:50:05.8097|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/ System.Web.Http.Filters CacheOutputAttribute OnActionExecutedAsync
+2017-11-21 20:50:05.8097|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/ System.Web.Http.Filters AutoInvalidateCacheOutputAttribute OnActionExecutedAsync Action filter for 'Get()'
+2017-11-21 20:50:05.8097|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/ System.Web.Http.Filters AutoInvalidateCacheOutputAttribute OnActionExecutedAsync
+2017-11-21 20:50:05.8439|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/ System.Web.Http.Controllers AuthorController ExecuteAsync
+2017-11-21 20:50:05.8439|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/ System.Web.Http.Request Content-type='application/json; charset=utf-8', content-length=1304
+2017-11-21 20:50:05.8780|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/ System.Web.Http.Controllers AuthorController Dispose
+2017-11-21 20:50:05.8780|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/ System.Web.Http.Controllers AuthorController Dispose
+2017-11-21 20:50:11.6657|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/e System.Web.Http.Request http://localhost:49869/api/author/e
+2017-11-21 20:50:11.6657|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/e System.Web.Http.Controllers DefaultHttpControllerSelector SelectController Route='MS_SubRoutes:System.Web.Http.Routing.IHttpRouteData[]'
+2017-11-21 20:50:11.6657|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/e System.Web.Http.Controllers DefaultHttpControllerSelector SelectController Author
+2017-11-21 20:50:11.6657|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/e System.Web.Http.Controllers HttpControllerDescriptor CreateController
+2017-11-21 20:50:11.6657|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/e System.Web.Http.Controllers DefaultHttpControllerActivator Create
+2017-11-21 20:50:11.6657|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/e System.Web.Http.Controllers DefaultHttpControllerActivator Create Bookcase.Api.Controllers.AuthorController
+2017-11-21 20:50:11.6802|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/e System.Web.Http.Controllers HttpControllerDescriptor CreateController Bookcase.Api.Controllers.AuthorController
+2017-11-21 20:50:11.6802|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/e System.Web.Http.Controllers AuthorController ExecuteAsync
+2017-11-21 20:50:11.6802|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/e System.Web.Http.Action ApiControllerActionSelector SelectAction
+2017-11-21 20:50:11.6802|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/e System.Web.Http.Action ApiControllerActionSelector SelectAction Selected action 'Get(String name)'
+2017-11-21 20:50:11.6802|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/e System.Web.Http.ModelBinding HttpActionBinding ExecuteBindingAsync
+2017-11-21 20:50:11.6802|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/e System.Web.Http.ModelBinding ModelBinderParameterBinding ExecuteBindingAsync Binding parameter 'name'
+2017-11-21 20:50:11.7228|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/e System.Web.Http.ModelBinding ModelBinderParameterBinding ExecuteBindingAsync Parameter 'name' bound to the value 'e'
+2017-11-21 20:50:11.7228|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/e System.Web.Http.ModelBinding HttpActionBinding ExecuteBindingAsync Model state is valid. Values: name=e
+2017-11-21 20:50:11.7228|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/e System.Web.Http.Filters AutoInvalidateCacheOutputAttribute OnActionExecutingAsync Action filter for 'Get(String name)'
+2017-11-21 20:50:11.7228|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/e System.Web.Http.Filters AutoInvalidateCacheOutputAttribute OnActionExecutingAsync
+2017-11-21 20:50:11.7269|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/e System.Web.Http.Action ApiControllerActionInvoker InvokeActionAsync Action='Get(name=e)'
+2017-11-21 20:50:11.7269|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/e System.Web.Http.Action ReflectedHttpActionDescriptor ExecuteAsync Invoking action 'Get(name=e)'
+2017-11-21 20:50:11.7890|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/e System.Web.Http.Action ReflectedHttpActionDescriptor ExecuteAsync Action returned 'System.Web.Http.Results.JsonResult`1[System.Collections.Generic.IEnumerable`1[Bookcase.Infrastructure.DTO.AuthorDto]]'
+2017-11-21 20:50:11.7900|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/e System.Web.Http.Action ApiControllerActionInvoker InvokeActionAsync
+2017-11-21 20:50:11.7900|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/e System.Web.Http.Filters AutoInvalidateCacheOutputAttribute OnActionExecutedAsync Action filter for 'Get(String name)'
+2017-11-21 20:50:11.7900|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/e System.Web.Http.Filters AutoInvalidateCacheOutputAttribute OnActionExecutedAsync
+2017-11-21 20:50:11.7900|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/e System.Web.Http.Controllers AuthorController ExecuteAsync
+2017-11-21 20:50:11.7900|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/e System.Web.Http.Request Content-type='application/json; charset=utf-8', content-length=683
+2017-11-21 20:50:11.8101|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/e System.Web.Http.Controllers AuthorController Dispose
+2017-11-21 20:50:11.8101|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/e System.Web.Http.Controllers AuthorController Dispose
+2017-11-21 20:50:16.3379|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/3333333333333 System.Web.Http.Request http://localhost:49869/api/author/3333333333333
+2017-11-21 20:50:16.3379|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/3333333333333 System.Web.Http.Controllers DefaultHttpControllerSelector SelectController Route='MS_SubRoutes:System.Web.Http.Routing.IHttpRouteData[]'
+2017-11-21 20:50:16.3379|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/3333333333333 System.Web.Http.Controllers DefaultHttpControllerSelector SelectController Author
+2017-11-21 20:50:16.3379|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/3333333333333 System.Web.Http.Controllers HttpControllerDescriptor CreateController
+2017-11-21 20:50:16.3379|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/3333333333333 System.Web.Http.Controllers DefaultHttpControllerActivator Create
+2017-11-21 20:50:16.3379|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/3333333333333 System.Web.Http.Controllers DefaultHttpControllerActivator Create Bookcase.Api.Controllers.AuthorController
+2017-11-21 20:50:16.3379|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/3333333333333 System.Web.Http.Controllers HttpControllerDescriptor CreateController Bookcase.Api.Controllers.AuthorController
+2017-11-21 20:50:16.3520|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/3333333333333 System.Web.Http.Controllers AuthorController ExecuteAsync
+2017-11-21 20:50:16.3520|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/3333333333333 System.Web.Http.Action ApiControllerActionSelector SelectAction
+2017-11-21 20:50:16.3520|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/3333333333333 System.Web.Http.Action ApiControllerActionSelector SelectAction Selected action 'Get(String name)'
+2017-11-21 20:50:16.3520|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/3333333333333 System.Web.Http.ModelBinding HttpActionBinding ExecuteBindingAsync
+2017-11-21 20:50:16.3520|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/3333333333333 System.Web.Http.ModelBinding ModelBinderParameterBinding ExecuteBindingAsync Binding parameter 'name'
+2017-11-21 20:50:16.3520|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/3333333333333 System.Web.Http.ModelBinding ModelBinderParameterBinding ExecuteBindingAsync Parameter 'name' bound to the value '3333333333333'
+2017-11-21 20:50:16.3520|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/3333333333333 System.Web.Http.ModelBinding HttpActionBinding ExecuteBindingAsync Model state is valid. Values: name=3333333333333
+2017-11-21 20:50:16.3520|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/3333333333333 System.Web.Http.Filters AutoInvalidateCacheOutputAttribute OnActionExecutingAsync Action filter for 'Get(String name)'
+2017-11-21 20:50:16.3520|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/3333333333333 System.Web.Http.Filters AutoInvalidateCacheOutputAttribute OnActionExecutingAsync
+2017-11-21 20:50:16.3520|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/3333333333333 System.Web.Http.Action ApiControllerActionInvoker InvokeActionAsync Action='Get(name=3333333333333)'
+2017-11-21 20:50:16.3520|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/3333333333333 System.Web.Http.Action ReflectedHttpActionDescriptor ExecuteAsync Invoking action 'Get(name=3333333333333)'
+2017-11-21 20:50:16.4083|ERROR|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/3333333333333 System.Web.Http.Action ReflectedHttpActionDescriptor ExecuteAsync No product found for this id
+2017-11-21 20:50:16.4083|ERROR|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/3333333333333 System.Web.Http.Action ApiControllerActionInvoker InvokeActionAsync No product found for this id
+2017-11-21 20:50:16.4083|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/3333333333333 System.Web.Http.Filters AutoInvalidateCacheOutputAttribute OnActionExecutedAsync Action filter for 'Get(String name)' No product found for this id
+2017-11-21 20:50:16.4083|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/3333333333333 System.Web.Http.Filters AutoInvalidateCacheOutputAttribute OnActionExecutedAsync No product found for this id
+2017-11-21 20:50:16.4083|ERROR|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/3333333333333 System.Web.Http.Controllers AuthorController ExecuteAsync No product found for this id
+2017-11-21 20:50:16.4263|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/3333333333333 System.Net.Http.Formatting DefaultContentNegotiator Negotiate Type='HttpError', formatters=[JsonMediaTypeFormatterTracer, XmlMediaTypeFormatterTracer, FormUrlEncodedMediaTypeFormatterTracer, FormUrlEncodedMediaTypeFormatterTracer]
+2017-11-21 20:50:16.4263|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/3333333333333 System.Net.Http.Formatting JsonMediaTypeFormatter GetPerRequestFormatterInstance Obtaining formatter of type 'JsonMediaTypeFormatter' for type='HttpError', mediaType='application/json; charset=utf-8'
+2017-11-21 20:50:16.4263|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/3333333333333 System.Net.Http.Formatting JsonMediaTypeFormatter GetPerRequestFormatterInstance Will use same 'JsonMediaTypeFormatter' formatter
+2017-11-21 20:50:16.4263|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/3333333333333 System.Net.Http.Formatting DefaultContentNegotiator Negotiate Selected formatter='JsonMediaTypeFormatter', content-type='application/json; charset=utf-8'
+2017-11-21 20:50:16.4314|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/3333333333333 System.Web.Http.Request Content-type='application/json; charset=utf-8', content-length=unknown
+2017-11-21 20:50:16.4314|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/3333333333333 System.Net.Http.Formatting JsonMediaTypeFormatter WriteToStreamAsync Value='System.Web.Http.HttpError', type='HttpError', content-type='application/json; charset=utf-8'
+2017-11-21 20:50:16.4484|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/3333333333333 System.Net.Http.Formatting JsonMediaTypeFormatter WriteToStreamAsync
+2017-11-21 20:50:16.4484|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/3333333333333 System.Web.Http.Controllers AuthorController Dispose
+2017-11-21 20:50:16.4484|INFO|Bookcase.Api.Helpers.NLogger|GET http://localhost:49869/api/author/3333333333333 System.Web.Http.Controllers AuthorController Dispose

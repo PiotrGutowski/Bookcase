@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Bookcase.ClientRepository.Models.Author>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Author</h2>
+
+@if (ViewBag.Error == true)
+{
+    <div class="alert alert-danger" role="alert">
+        Not Found<br />
+        Try again.
+    </div>
+}
+<form asp-controller="Author" asp-action="Index">
+    <p>
+        Last Name: <input type="text" name="name">
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+<br />
+
+<p>
+    @Html.ActionLink("Create New", "CreateAuthor")
+</p>
+<table class="table">
+    <tr>
+        
+        <th>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LastName)
+        </th>
+        
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+           
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.AuthorId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.AuthorId })
+            </td>
+        </tr>
+    }
+
+</table>
+
+

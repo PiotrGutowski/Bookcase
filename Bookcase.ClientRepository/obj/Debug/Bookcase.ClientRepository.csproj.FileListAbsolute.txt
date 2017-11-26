@@ -1,0 +1,10 @@
+C:\Users\chino\Documents\Visual Studio 2017\Projects\Bookcase\Bookcase.ClientRepository\bin\Debug\Bookcase.ClientRepository.dll
+C:\Users\chino\Documents\Visual Studio 2017\Projects\Bookcase\Bookcase.ClientRepository\bin\Debug\Bookcase.ClientRepository.pdb
+C:\Users\chino\Documents\Visual Studio 2017\Projects\Bookcase\Bookcase.ClientRepository\bin\Debug\Newtonsoft.Json.dll
+C:\Users\chino\Documents\Visual Studio 2017\Projects\Bookcase\Bookcase.ClientRepository\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\chino\Documents\Visual Studio 2017\Projects\Bookcase\Bookcase.ClientRepository\bin\Debug\Newtonsoft.Json.xml
+C:\Users\chino\Documents\Visual Studio 2017\Projects\Bookcase\Bookcase.ClientRepository\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\chino\Documents\Visual Studio 2017\Projects\Bookcase\Bookcase.ClientRepository\obj\Debug\Bookcase.ClientRepository.csprojResolveAssemblyReference.cache
+C:\Users\chino\Documents\Visual Studio 2017\Projects\Bookcase\Bookcase.ClientRepository\obj\Debug\Bookcase.ClientRepository.csproj.CoreCompileInputs.cache
+C:\Users\chino\Documents\Visual Studio 2017\Projects\Bookcase\Bookcase.ClientRepository\obj\Debug\Bookcase.ClientRepository.dll
+C:\Users\chino\Documents\Visual Studio 2017\Projects\Bookcase\Bookcase.ClientRepository\obj\Debug\Bookcase.ClientRepository.pdb
